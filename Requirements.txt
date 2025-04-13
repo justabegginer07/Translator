@@ -1,0 +1,6 @@
+notebook
+pandas
+numpy
+SpeechRecognition
+pyttsx3
+pyaudio
