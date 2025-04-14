@@ -1,8 +1,10 @@
 notebook
 pandas
 numpy
-SpeechRecognition
+whisper
 pyttsx3
 pyaudio
 Jupyter
 transformers
+sounddevice
+soundfile
