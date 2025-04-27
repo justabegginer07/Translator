@@ -1,9 +1,9 @@
 import numpy
 import whisper
-import sounddevice as sd
-import soundfile as sf
+#import sounddevice as sd
+#import soundfile as sf
 
-model=whisper.load_model('turbo')
+model=whisper.load_model('base')
 
 def speech_to_text(audio_path):
     result=model.transcribe(audio_path)
