@@ -1,8 +1,10 @@
 import numpy
 import whisper
 import os
+import pydub
 import sounddevice as sd
 import soundfile as sf
+import speech_recognition as sr
                                 
 ffmpeg_path=os.path.abspath('/workspaces/Translator')
 os.environ['PATH']=ffmpeg_path+os.pathsep+os.environ.get('PATH','')
